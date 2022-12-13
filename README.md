@@ -8,3 +8,4 @@ The problem's Completed so far:
 - [Hurdle 2](https://github.com/ashutosh-vaidya/Reeborgs_world_solutions/blob/main/Hurdle%202.py)
 - [Hurdle 3](https://github.com/ashutosh-vaidya/Reeborgs_world_solutions/blob/main/Hurdle%203.py) 
 - [Hurdle 4](https://github.com/ashutosh-vaidya/Reeborgs_world_solutions/blob/main/Hurdle%204.py)
+- [Maze](https://github.com/ashutosh-vaidya/Reeborgs_world_solutions/blob/main/Maze.py) | [Read this](https://github.com/ashutosh-vaidya/Reeborgs_world_solutions/blob/main/Maze_README.md)

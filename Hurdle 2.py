@@ -4,8 +4,8 @@ def turn_right():
     turn_left()
     turn_left()
     turn_left()
-    
-#The jump function is the steps required to pass one hurdle
+
+#The jump function is the steps required to pass one hurdle    
 def jump():
     move()
     turn_left()
@@ -16,8 +16,9 @@ def jump():
     move()
     turn_left()
     
-#Since we have 6 hurdles in total we can use the for loop and call jump 6 times.
-for i in range(6):
+#Since no of hurdles are going to be random we need to check if Reeborg is at the goal or not
+#If not at goal then perform jump. We can use while loop to achieve this
+while not at_goal():
     jump()
 ################################################################
 # WARNING: Do not change this comment.

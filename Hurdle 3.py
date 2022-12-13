@@ -7,7 +7,6 @@ def turn_right():
     
 #The jump function is the steps required to pass one hurdle
 def jump():
-    move()
     turn_left()
     move()
     turn_right()
@@ -16,9 +15,16 @@ def jump():
     move()
     turn_left()
     
-#Since we have 6 hurdles in total we can use the for loop and call jump 6 times.
-for i in range(6):
-    jump()
+#We do not know number of hurdles and also 
+#if there is wall or clear space in front
+#We will first check if wall in front, if yes then jump()
+#notice that we have removed first move() from the jump
+#Instead we will move the reeborg if front is clear
+while not at_goal():
+    if wall_in_front():
+        jump()
+    elif front_is_clear():
+        move()
 ################################################################
 # WARNING: Do not change this comment.
 # Library Code is below.
